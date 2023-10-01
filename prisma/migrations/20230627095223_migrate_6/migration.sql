@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `comment` MODIFY `dislikes` INTEGER NULL DEFAULT 0,
+    MODIFY `likes` INTEGER NULL DEFAULT 0;
